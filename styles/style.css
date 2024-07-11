@@ -201,8 +201,71 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-.video{
-    
-}
+
 
 /* <!-- ========================================== My inspiration ======================================= --> */
+.target-container{
+    width: 1320px;
+    /* height: 980px; */
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+.target-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.target-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.target-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.target-set{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.target-box{
+    width: 364px;
+    height: 300px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background: rgba(0, 76, 232, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+}
+
+.target-box h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.target-box p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.target-box a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+/* <!-- ========================================== Support ======================================= --> */

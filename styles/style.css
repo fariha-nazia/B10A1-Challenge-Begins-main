@@ -9,7 +9,6 @@ body {
 }
 .navbar {
     display: flex;
-    /* justify-content: space-between; */
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -326,4 +325,13 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 20px;
+}
+/* <!-- ========================================== Support ======================================= --> */
+
+.footer-container{
+    height: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

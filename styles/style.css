@@ -9,11 +9,12 @@ body {
 }
 .navbar {
     display: flex;
+    /* justify-content: space-between; */
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    margin: 50px;
+    margin: 50px 300px;
 }
 
 .logo {
@@ -35,3 +36,43 @@ body {
 }
 
 /* ==================================================================== */
+
+.banner-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    border: 2px solid white;
+    min-height: 600px;
+    margin-top: 20px;
+    background-image: url("/assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 14px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.banner-content img{
+    margin-bottom: 30px;
+}
+
+.banner-btn{
+    margin: 30px;
+    width: 208px;
+    height: 66px;
+    padding: 10px 20px;
+    background: rgb(13, 19, 33);
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* <!-- ========================================== Banner ======================================= --> */
